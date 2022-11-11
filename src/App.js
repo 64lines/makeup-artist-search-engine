@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <Box sx={{ alignItems: 'center', width: '100%', maxWidth: 800, display: 'flex', flexDirection: 'column' }}>
+      <Box sx={{ alignItems: 'center', width: '100%', display: 'flex', flexDirection: 'column' }}>
         <Typography variant="h3" gutterBottom>
           Buscador del Makeup Artist
         </Typography>
