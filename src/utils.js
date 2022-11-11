@@ -7,7 +7,7 @@ export function generateQuery({ value }) {
     'runways': `"pasarelas"|"pasarela" "${CITY}" inurl:${URL} -webcam"`,
     'catalogs': `"catalogos"|"catalogo" "${CITY}" inurl:${URL} -webcam"`,
     'events': `"eventos"|"evento" "${CITY}" inurl:${URL} -webcam"`,
-    'productions': `"producciones"|"produccion" "${CITY}" inurl:${URL} -webcam"`,
+    'productions': `"producciones"|"produccion" "musicales"|"musical"|"videos"|"cine"|"television"  "${CITY}" inurl:${URL} -webcam"`,
     'academies': `"academia"|"academy"|"academias" "arte"|"modelaje"|"danza"|"baile"|"actuacion"|"ballet" "${CITY}" inurl:${URL} -webcam"`,
   }[value]
 }
