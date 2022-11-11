@@ -23,7 +23,6 @@ function App() {
         <Typography variant="h3" gutterBottom>
           Buscador del Makeup Artist
         </Typography>
-
         <RadioGroup onChange={handleChange} defaultValue="agencies">
           <FormControlLabel value="agencies" control={<Radio />} label="Agencias" />
           <FormControlLabel value="runways" control={<Radio />} label="Pasarelas" />
@@ -33,7 +32,7 @@ function App() {
           <FormControlLabel value="academies" control={<Radio />} label="Academias" />
         </RadioGroup>
 
-        <Button variant="contained" onClick={handleClick}>Buscar</Button>
+        <Button variant="contained" sx={{ marginTop: 5 }} onClick={handleClick}>Buscar</Button>
 
       </Box>
 
